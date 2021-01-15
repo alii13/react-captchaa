@@ -1,0 +1,27 @@
+.react__captcha {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+}
+
+.react__captcha__icon__wrapper:active {
+  background-color: #2ED47A;
+  ;
+}
+
+.react__captcha__canvas {
+  background-color: #fff;
+  border: 1px dashed #109CF1;
+  box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+  padding: 0 0.5em;
+}
+
+.react__captcha__icon__wrapper {
+  background: #109CF1;
+  padding: 0.4em 0.5em;
+  box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+  border-radius: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+}
